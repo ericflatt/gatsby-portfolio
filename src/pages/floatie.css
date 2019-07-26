@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.Floatie {
+  text-align: center;
+  font-family: sans-serif;
+  background-image: url("./img/floatieBG.png");
+  background-size: cover;
+}
+
+.orGo{
+  color: #9babb4;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: ;
+  min-height: 100vh;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.floatieLogo{
+  height: auto;
+  width: 12%;
+  color: pink;
+}
+
+.downArrow{
+  position: absolute;
+  bottom: 0;
+  width: 45px;
+  height: auto;
+}
+
+.floatieContent{
+  height: auto;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 10%;
+  font-weight: bold;
+}
+
+.floatieP{
+  width: 70%;
+  font-weight: 100;
+  font-size: calc(12px + 2vmin);
+  line-height: 1.4;
+}
+
+.dividerLine{
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  30% { transform: translateY(-30px); }
+  50% { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+
+.bounce {
+  animation: bounce 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}

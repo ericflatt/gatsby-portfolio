@@ -1,0 +1,26 @@
+.webDesign{
+  text-align: center;
+  font-family: sans-serif;
+  background:white;
+  background-size: cover;
+}
+
+.textPadding{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.sectionTop{
+  padding-top: 10px;
+}
+
+.webDesignLink{
+  color: pink;
+  text-decoration: none;
+  transition: .2s ease;
+  font-size: 18px;
+}
+
+.webDesignLink:hover{
+  border-bottom: 2px solid pink;
+}
