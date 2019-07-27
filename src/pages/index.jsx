@@ -130,7 +130,7 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-          Say <a style={{color:"pink"}} href="mailto:eflatt18@gmail.com">Hi</a>, check out my
+          Say <a style={{color:"pink"}} href="mailto:eflatt18@gmail.com">Hi,</a> check out my
             <a style={{color:"pink"}} href="https://drive.google.com/file/d/1pflOhbwCbNat1gpWGbourQV2aE9x0As4/view?usp=sharing"target="_blank"> Resume</a> or find me on other platforms:{' '}
             <a style={{color:"pink"}} href="https://dribbble.com/ericflatt"target="_blank">Dribbble</a> &{' '}
             <a style={{color:"pink"}} href="https://www.instagram.com/eric_flatt/"target="_blank">Instagram</a>
