@@ -4,6 +4,9 @@ import tw from 'tailwind.macro'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
 import { Link } from 'react-router';
 import me from './img/me.jpeg';
+import downArrowWhite from './img/arrow-down-white.svg'
+import './floatie.css'
+import './main.css'
 
 
 
@@ -69,9 +72,15 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm Eric Flatt.
+          Hey! <br /> I'm Eric.
         </BigTitle>
-        <Subtitle>I'm a User Experience Design student studying at Savannah College of Art and Design.</Subtitle>
+        <Subtitle>I'm a User Experience Design student studying at Savannah College of Art and Design.
+        </Subtitle>
+
+          <img style={{margin:"auto",display:"block",position:"absolute",left:"0",right:"0",bottom:"0",content:"keep"}} src={ downArrowWhite } className="downArrowWhite bounce" alt="scroll down" />
+
+          <div className="keepScrolling">keep scrolling to view my projects and learn more about me</div>
+
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
@@ -87,9 +96,9 @@ const Index = () => (
           <ProjectCard
             title="obo"
             link="/obo"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            bg="linear-gradient(to right, #00bfff 0%, #ffffff 100%)"
           >
-            obo
+            Helping children with diabilities <br/> develop healthy social skills
           </ProjectCard>
           <ProjectCard
             title="Web Design Projects"
@@ -101,14 +110,15 @@ const Index = () => (
           </ProjectCard>
 
 
+
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-        <Title>About</Title>
+        <Title>About me</Title>
         <AboutHero>
 
           <AboutSub>
-            Currently I live in Savannah Ga, when the sun is up (and down) I am a user experience design student at Savannah College of Art and Design (SCAD). Come sundown my passion lies on the web, I love designing and developing websites.
+            Currently I live in Savannah Ga, when the sun is up I am a user experience design student at Savannah College of Art and Design (SCAD). Come sundown my passion lies on the web, I love designing and developing websites and mobile apps. This summer I am interning at iCIMS. iCIMS software allows your company to grow through better recruiting while filling your talent pool and onboarding new employees.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
@@ -120,7 +130,7 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-          Say <a style={{color:"pink"}} href="mailto:eflatt18@gmail.com">Hi,</a> check out my
+          Say <a style={{color:"pink"}} href="mailto:eflatt18@gmail.com">Hi</a>, check out my
             <a style={{color:"pink"}} href="https://drive.google.com/file/d/1pflOhbwCbNat1gpWGbourQV2aE9x0As4/view?usp=sharing"target="_blank"> Resume</a> or find me on other platforms:{' '}
             <a style={{color:"pink"}} href="https://dribbble.com/ericflatt"target="_blank">Dribbble</a> &{' '}
             <a style={{color:"pink"}} href="https://www.instagram.com/eric_flatt/"target="_blank">Instagram</a>

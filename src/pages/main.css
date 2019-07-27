@@ -1,1 +1,28 @@
+.keepScrolling{
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 75px;
+  font-size: 21px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: sans-serif;
+}
 
+@media only screen and (max-width: 600px) {
+  .keepScrolling {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .downArrowWhite {
+    width: 15px;
+  }
+}
+
+.downArrowWhite{
+  width: 35px;
+}

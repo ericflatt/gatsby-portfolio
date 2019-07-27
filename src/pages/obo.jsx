@@ -421,10 +421,10 @@ function App() {
 
                       </div>
 
-                      <Footer>
-                      Made with <a style={{color:"red"}}>&#9829;</a>{' '}
-                       , React and other stuff<br/>
+                      {/*   Made with <a style={{color:"red"}}>&#9829;</a>{' '}
+                         , React and other stuff<br/> */}
 
+                      <Footer>
                        Check out my other projects:  <a className="footerObo" href="/floatie"> floatie </a>
                        <a className="footerLine" href="/floatie">|</a>
                        <a className="footerObo" href="/webDesign"> Web Design</a><br/>

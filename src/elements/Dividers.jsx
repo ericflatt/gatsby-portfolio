@@ -9,6 +9,7 @@ export const Divider = styled(ParallaxLayer)`
     fill: ${props => props.fill};
   }
   clip-path: ${props => props.clipPath};
+
 `
 
 export const DividerMiddle = styled(Divider)`

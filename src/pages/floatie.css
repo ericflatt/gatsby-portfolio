@@ -67,6 +67,23 @@ body{
   font-weight: bolder;
 }
 
+.floatieImg{
+  width: 15%;
+}
+
+.floatieImgTwo{
+  width: 45%;
+}
+
+.floatieParagraph{
+  width: 50%;
+  margin:auto;
+  display: block;
+  margin-top: 15px;
+  text-align: left;
+  line-height: 1.4;
+}
+
 @keyframes bounce {
   0% { transform: translateY(0); }
   30% { transform: translateY(-30px); }
