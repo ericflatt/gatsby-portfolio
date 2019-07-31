@@ -41,6 +41,7 @@
     "design",
     "designer",
     "scad"
+
   ],
   "scripts": {
     "dev": "gatsby develop -o",
