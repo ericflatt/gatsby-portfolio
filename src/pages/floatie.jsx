@@ -81,8 +81,14 @@ const ThreeColumns = styled.div`
 
 function App() {
   return (
+
     <div className="Floatie">
       <header className="App-header">
+
+        <a className="downArrow" href="/">
+        <img src={ downArrow } className="backArrow" alt="go back" />
+        </a>
+
         <img src={ floatieLogo } className="floatieLogo" alt="logo" />
         <h1>
         floatie
@@ -199,8 +205,8 @@ function App() {
              Check out my other projects:  <a className="footerObo" href="/obo"> Obo </a>
              <a className="footerLine" href="/">|</a>
              <a className="footerObo" href="/webDesign"> Web Design</a><br/>
-             <a className="orGo" href="/floatie">or go </a>
-             <a className="footerObo" href="/">home</a>
+             
+
 
 
                 </Footer>

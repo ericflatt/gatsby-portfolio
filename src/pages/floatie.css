@@ -62,6 +62,14 @@ body{
   line-height: 1.4;
 }
 
+.backArrow{
+  width: 35px;
+  transform: rotate(90deg);
+  position: fixed;
+  top:10px;
+  left: 10px;
+}
+
 .dividerLine{
   margin-bottom: 50px;
   font-weight: bolder;

@@ -30,13 +30,18 @@ const Footer = styled.footer`
 function App() {
   return (
     <div className="webDesign">
+
+    <a className="downArrow" href="/">
+    <img src={ downArrow } className="backArrow" alt="go back" />
+    </a>
+
       <header className="App-header">
         <h1>
         Web Design / Development
           </h1>
         <p style={{lineHeight:"1.4"}}>
         Check out these cool projects I worked on<br/>
-        (This page isn't fully done yet)
+        (This page is a work in progress)
           </p>
           <img src={ downArrow } className="downArrow bounce" alt="scroll down" />
       </header>
@@ -55,8 +60,7 @@ function App() {
              Check out my other projects:  <a className="footerObo" href="/obo"> Obo </a>
              <a className="footerLine" href="/">|</a>
              <a className="footerObo" href="/floatie"> floatie</a><br/>
-             <a className="orGo" href="/">or go </a>
-             <a className="footerObo" href="/">home</a>
+            
 
 
                 </Footer>

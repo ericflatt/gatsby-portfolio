@@ -90,7 +90,7 @@ const Index = () => (
             link="/floatie"
             bg="linear-gradient(to right, pink 0%, HotPink 100%)"
           >
-            a social stage for musicians<br />
+            A social stage for musicians<br />
             (24 hour design competition submission)
           </ProjectCard>
           <ProjectCard
@@ -136,10 +136,10 @@ const Index = () => (
             <a style={{color:"pink"}} href="https://www.instagram.com/eric_flatt/"target="_blank">Instagram</a>
           </ContactText>
         </Inner>
-        <Footer>
+        {/*<Footer>
         Made with <a style={{color:"red"}}>&#9829;</a>{' '}
          , React and other stuff
-        </Footer>
+        </Footer>*/}
       </Contact>
     </Parallax>
   </>

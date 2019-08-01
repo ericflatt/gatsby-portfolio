@@ -90,6 +90,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+      <a className="downArrow" href="/">
+      <img src={ downArrow } className="backArrow" alt="go back" />
+      </a>
+
         <img src={ oboLogo } className="oboLogo" alt="logo" />
         <p>
         build to connect
@@ -428,8 +433,8 @@ function App() {
                        Check out my other projects:  <a className="footerObo" href="/floatie"> floatie </a>
                        <a className="footerLine" href="/floatie">|</a>
                        <a className="footerObo" href="/webDesign"> Web Design</a><br/>
-                       <a className="orGo" href="/floatie">or go </a>
-                       <a className="footerObo" href="/">home</a>
+                      
+
                           </Footer>
 
 
