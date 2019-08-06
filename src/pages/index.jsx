@@ -86,19 +86,19 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
+            title="obo"
+            link="/obo"
+            bg="linear-gradient(to right, #00bfff 0%, #ffffff 100%)"
+          >
+            Helping children with diabilities <br/> develop healthy social skills
+          </ProjectCard>
+          <ProjectCard
             title="floatie"
             link="/floatie"
             bg="linear-gradient(to right, pink 0%, HotPink 100%)"
           >
             A social stage for musicians<br />
             (24 hour design competition submission)
-          </ProjectCard>
-          <ProjectCard
-            title="obo"
-            link="/obo"
-            bg="linear-gradient(to right, #00bfff 0%, #ffffff 100%)"
-          >
-            Helping children with diabilities <br/> develop healthy social skills
           </ProjectCard>
           <ProjectCard
             title="Web Design Projects"
