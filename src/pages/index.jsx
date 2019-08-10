@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import tw from 'tailwind.macro'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
 import { Link } from 'react-router';
-import me from './img/me.jpeg';
+import me from './img/me-in-vr.svg';
 import downArrowWhite from './img/arrow-down-white.svg'
 import './floatie.css'
 import './main.css'
@@ -116,10 +116,10 @@ const Index = () => (
       <About offset={3}>
         <Title>About me</Title>
         <AboutHero>
-
-          <AboutSub>
-            Currently I live in Savannah Ga, when the sun is up I am a user experience design student at Savannah College of Art and Design (SCAD). Come sundown my passion lies on the web, I love designing and developing websites and mobile apps. This summer I am interning at iCIMS. iCIMS software allows your company to grow through better recruiting while filling your talent pool and onboarding new employees.
-          </AboutSub>
+        
+          <AboutDesc style={{textAlign:"left", marginLeft:"25px"}}>
+            Currently I live in Savannah Ga, I am a user experience design student at Savannah College of Art and Design (SCAD). My passions focus heavily on responsive web design and development, mobile app design, as well as music. I am always on my computer clicking and dragging away. Music has been a big part of my life for as long as I can remember. Some of my favorite bands include Cage the Elephant, Slipknot, Korn, and Bring Me the Horizon. This summer I am a UX Design intern at iCIMS.
+          </AboutDesc>
         </AboutHero>
         <AboutDesc>
 
