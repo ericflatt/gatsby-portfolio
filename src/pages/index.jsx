@@ -2,8 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import tw from 'tailwind.macro'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
-import { Link } from 'react-router';
-import me from './img/me-in-vr.svg';
 import downArrowWhite from './img/arrow-down-white.svg'
 import './floatie.css'
 import './main.css'
