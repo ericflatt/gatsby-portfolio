@@ -7,7 +7,7 @@ module.exports = {
   siteTitleAlt: 'Eric Flatt - Portfolio', // Alternative Site title for SEO
   siteTitleShort: 'Eric', // short_name for manifest
   siteHeadline: 'Eric Flatt - Portfolio', // Headline for schema.org JSONLD
-  siteUrl: 'https://cara.lekoarts.de', // Domain of your site. No trailing slash!
+  siteUrl: 'https://ericflattdesign.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: 'src/pages/img/eFavicon.png', // Used for SEO and manifest
   siteDescription: 'Eric Flatt - Portfolio',
@@ -17,7 +17,7 @@ module.exports = {
   userTwitter: '', // Twitter Username
   ogSiteName: '', // Facebook Site Name
   ogLanguage: '', // Facebook Language
-  googleAnalyticsID: '',
+  googleAnalyticsID: 'UA-107339411-1',
 
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,

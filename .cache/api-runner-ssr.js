@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/ericflatt/gatsby-portfolio/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":""},
+      options: {"plugins":[],"trackingId":"UA-107339411-1"},
     },{
       plugin: require('/Users/ericflatt/gatsby-portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Eric Flatt - Portfolio","short_name":"Eric","description":"Eric Flatt - Portfolio","start_url":"/","background_color":"#a0d8f1","theme_color":"#e07628","display":"standalone","icon":"src/pages/img/eFavicon.png"},
