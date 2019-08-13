@@ -2,7 +2,7 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
-  "component---node-modules-gatsby-plugin-offline-app-shell-js": () => import("/Users/ericflatt/gatsby-portfolio/node_modules/gatsby-plugin-offline/app-shell.js" /* webpackChunkName: "component---node-modules-gatsby-plugin-offline-app-shell-js" */),
+  "component---cache-dev-404-page-js": () => import("/Users/ericflatt/gatsby-portfolio/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-floatie-jsx": () => import("/Users/ericflatt/gatsby-portfolio/src/pages/floatie.jsx" /* webpackChunkName: "component---src-pages-floatie-jsx" */),
   "component---src-pages-index-jsx": () => import("/Users/ericflatt/gatsby-portfolio/src/pages/index.jsx" /* webpackChunkName: "component---src-pages-index-jsx" */),
   "component---src-pages-obo-jsx": () => import("/Users/ericflatt/gatsby-portfolio/src/pages/obo.jsx" /* webpackChunkName: "component---src-pages-obo-jsx" */),

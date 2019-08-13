@@ -134,10 +134,12 @@ const Index = () => (
             <a style={{color:"pink"}} href="https://www.instagram.com/eric_flatt/"target="_blank">Instagram</a>
           </ContactText>
         </Inner>
+
         {/*<Footer>
         Made with <a style={{color:"red"}}>&#9829;</a>{' '}
          , React and other stuff
         </Footer>*/}
+        
       </Contact>
     </Parallax>
   </>
