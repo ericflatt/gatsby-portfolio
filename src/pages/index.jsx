@@ -96,7 +96,7 @@ const Index = () => (
             bg="linear-gradient(to right, pink 0%, HotPink 100%)"
           >
             A social stage for musicians<br />
-            (24 hour design competition submission)
+            (24 hour design competition entry) 
           </ProjectCard>
           <ProjectCard
             title="Web Design Projects"
