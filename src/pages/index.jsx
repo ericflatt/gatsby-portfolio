@@ -88,7 +88,7 @@ const Index = () => (
             link="/obo"
             bg="linear-gradient(to right, #00bfff 0%, #ffffff 100%)"
           >
-            Helping children with diabilities <br/> develop healthy social skills
+            Helping children with disabilities <br/> develop healthy social skills
           </ProjectCard>
           <ProjectCard
             title="floatie"
