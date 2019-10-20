@@ -120,7 +120,7 @@ const Index = () => (
           </AboutDesc>
         </AboutHero>
         <AboutDesc>
-
+    
 
         </AboutDesc>
       </About>

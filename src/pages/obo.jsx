@@ -24,6 +24,8 @@ import onBoarding from './img/onBoarding.png'
 import homeScreen from './img/homeScreen.png'
 import routinesScreen from './img/routineScreen.png'
 import digitalBalance from './img/digitalBalance.png'
+import ImageZoom from 'react-medium-image-zoom'
+
 import './obo.css'
 
 // Components
@@ -287,7 +289,7 @@ function App() {
       <div>
       <h3 className="likes">
 
-        Disikes:
+        Dislikes:
           </h3>
       <p className="oboParagraph">
         There was confusion within the flow of the UI<br/>
