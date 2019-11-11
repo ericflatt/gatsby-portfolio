@@ -116,7 +116,7 @@ const Index = () => (
         <AboutHero>
         
           <AboutDesc style={{textAlign:"left", marginLeft:"25px"}}>
-            Currently I live in Savannah Ga, I am a user experience design student at Savannah College of Art and Design (SCAD). My passions focus heavily on responsive web design and development, mobile app design, as well as music. I am always on my computer clicking and dragging away. Music has been a big part of my life for as long as I can remember. Some of my favorite bands include Cage the Elephant, Slipknot, Korn, and Bring Me the Horizon. This summer I am a UX Design intern at iCIMS.
+          I'm a User Experience Design student at the Savannah College of Art and Design in Savannah, GA. My passion for responsive web design and development as well as mobile app design means you can always find me in front of my computer. Music has been a huge part of my life for as long as I can remember, so I always make sure to catch my favorite bands live, such as Cage the Elephant, Slipknot, Tool and Arctic Monkeys. This past summer, I had the opportunity to join iCIMS as a UX Design Intern, and I'm looking forward to tackling the next challenge that comes my way. 
           </AboutDesc>
         </AboutHero>
         <AboutDesc>
@@ -129,7 +129,7 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
           Say <a style={{color:"pink"}} href="mailto:eflatt18@gmail.com">Hi,</a> check out my
-            <a style={{color:"pink"}} href="https://drive.google.com/file/d/1lppbhPT0t7bQpZBV2gnfXFxtuf7U_AbB/view?usp=sharing"target="_blank"> Resume</a> or find me on other platforms:{' '}
+            <a style={{color:"pink"}} href="https://drive.google.com/file/d/1JCFhZ2bgpDkIE9Wv7Wc5R46Wz5lXVqSh/view?usp=sharing"target="_blank"> Resume</a> or find me on other platforms:{' '}
             <a style={{color:"pink"}} href="https://dribbble.com/ericflatt"target="_blank">Dribbble</a> &{' '}
             <a style={{color:"pink"}} href="https://www.instagram.com/eric_flatt/"target="_blank">Instagram</a>
           </ContactText>
