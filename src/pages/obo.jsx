@@ -432,9 +432,9 @@ function App() {
                          , React and other stuff<br/> */}
 
                       <Footer>
-                       Check out my other projects:  <a className="footerObo" href="/floatie"> floatie </a>
+                       Check out my other projects:  <a className="footerObo" href="/bond"> Bond </a>
                        <a className="footerLine" href="/floatie">|</a>
-                       <a className="footerObo" href="/webDesign"> Web Design</a><br/>
+                       <a className="footerObo" href="/floatie"> floatie</a><br/>
                       
 
                           </Footer>

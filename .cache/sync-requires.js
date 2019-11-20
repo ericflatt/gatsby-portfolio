@@ -6,7 +6,9 @@ const preferDefault = m => m && m.default || m
 
 exports.components = {
   "component---node-modules-gatsby-plugin-offline-app-shell-js": hot(preferDefault(require("/Users/ericflatt/gatsby-portfolio/node_modules/gatsby-plugin-offline/app-shell.js"))),
+  "component---src-pages-bond-jsx": hot(preferDefault(require("/Users/ericflatt/gatsby-portfolio/src/pages/bond.jsx"))),
   "component---src-pages-floatie-jsx": hot(preferDefault(require("/Users/ericflatt/gatsby-portfolio/src/pages/floatie.jsx"))),
+  "component---src-pages-google-jsx": hot(preferDefault(require("/Users/ericflatt/gatsby-portfolio/src/pages/google.jsx"))),
   "component---src-pages-index-jsx": hot(preferDefault(require("/Users/ericflatt/gatsby-portfolio/src/pages/index.jsx"))),
   "component---src-pages-new-landing-jsx": hot(preferDefault(require("/Users/ericflatt/gatsby-portfolio/src/pages/newLanding.jsx"))),
   "component---src-pages-obo-jsx": hot(preferDefault(require("/Users/ericflatt/gatsby-portfolio/src/pages/obo.jsx"))),

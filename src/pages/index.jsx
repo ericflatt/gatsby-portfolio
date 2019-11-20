@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import tw from 'tailwind.macro'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
 import downArrowWhite from './img/arrow-down-white.svg'
+import flux from './img/fluxFIX.png'
 import './floatie.css'
 import './main.css'
 
@@ -84,12 +85,32 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
+            
             title="obo"
             link="/obo"
             bg="linear-gradient(to right, #00bfff 0%, #ffffff 100%)"
           >
+            
             Helping children with disabilities <br/> develop healthy social skills
           </ProjectCard>
+
+          <ProjectCard
+            title="Google x SCADpro"
+            link="/google"
+            bg="linear-gradient(to right, #0f9d58 0%, #ffffff 100%)"
+          >
+            The future of online advertising
+          </ProjectCard>
+
+          <ProjectCard
+            title="Bond"
+            link="/bond
+            "
+            bg="linear-gradient(to right, #D26E5F 0%, #ffffff 100%)"
+          >
+            Creating genuine relationships between different generations
+          </ProjectCard>
+
           <ProjectCard
             title="floatie"
             link="/floatie"
@@ -98,14 +119,7 @@ const Index = () => (
             A social stage for musicians<br />
             (24 hour design competition entry) 
           </ProjectCard>
-          <ProjectCard
-            title="Web Design Projects"
-            link="/webDesign
-            "
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-
-          </ProjectCard>
+       
 
 
 
@@ -129,9 +143,9 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
           Say <a style={{color:"pink"}} href="mailto:eflatt18@gmail.com">Hi,</a> check out my
-            <a style={{color:"pink"}} href="https://drive.google.com/file/d/1JCFhZ2bgpDkIE9Wv7Wc5R46Wz5lXVqSh/view?usp=sharing"target="_blank"> Resume</a> or find me on other platforms:{' '}
-            <a style={{color:"pink"}} href="https://dribbble.com/ericflatt"target="_blank">Dribbble</a> &{' '}
-            <a style={{color:"pink"}} href="https://www.instagram.com/eric_flatt/"target="_blank">Instagram</a>
+            <a style={{color:"pink"}} href="https://drive.google.com/file/d/1l61pqSADWsvSMep6_2WfdyUGQQWi2WwE/view?usp=sharing"target="_blank"> Resume</a> or find me on other platforms:{' '}
+            <a style={{color:"pink"}} href="https://www.instagram.com/eric_flatt/"target="_blank">Instagram</a> &{' '}
+            <a style={{color:"pink"}} href="https://dribbble.com/ericflatt"target="_blank">Dribbble</a>
           </ContactText>
         </Inner>
 

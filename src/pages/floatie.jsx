@@ -204,7 +204,7 @@ function App() {
             <Footer>
              Check out my other projects:  <a className="footerObo" href="/obo"> Obo </a>
              <a className="footerLine" href="/">|</a>
-             <a className="footerObo" href="/webDesign"> Web Design</a><br/>
+             <a className="footerObo" href="/google"> Google</a><br/>
              
 
 
