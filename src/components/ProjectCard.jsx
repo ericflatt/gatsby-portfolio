@@ -15,12 +15,12 @@ const Wrapper = styled.a`
 
 const Text = styled.div`
   ${tw`opacity-100 font-sans text-sm md:text-base`};
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  
 `
 
 const Title = styled.div`
-  ${tw`text-black uppercase text-2xl md:text-3xl xl:text-4xl tracking-wide font-sans pt-8`};
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  ${tw`text-black uppercase text-4xl md:text-3xl xl:text-5xl tracking-wide font-sans pt-8`};
+  
 `
 
 const ProjectCard = ({ title, link, children, bg }) => (

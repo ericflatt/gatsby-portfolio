@@ -30,7 +30,7 @@ const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
   display: grid;
   grid-gap: 4rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   @media (max-width: 1200px) {
     grid-gap: 3rem;
   }
@@ -85,13 +85,12 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            
             title="obo"
             link="/obo"
             bg="linear-gradient(to right, #00bfff 0%, #ffffff 100%)"
           >
             
-            Helping children with disabilities <br/> develop healthy social skills
+            <h2>Helping children with disabilities <br/> develop healthy social skills</h2>
           </ProjectCard>
 
           <ProjectCard
@@ -99,7 +98,7 @@ const Index = () => (
             link="/google"
             bg="linear-gradient(to right, #0f9d58 0%, #ffffff 100%)"
           >
-            The future of online advertising
+            <h2>The future of online advertising</h2>
           </ProjectCard>
 
           <ProjectCard
@@ -108,7 +107,7 @@ const Index = () => (
             "
             bg="linear-gradient(to right, #D26E5F 0%, #ffffff 100%)"
           >
-            Creating genuine relationships between different generations
+            <h2>Creating genuine relationships between different generations</h2>
           </ProjectCard>
 
           <ProjectCard
@@ -116,8 +115,8 @@ const Index = () => (
             link="/floatie"
             bg="linear-gradient(to right, pink 0%, HotPink 100%)"
           >
-            A social stage for musicians<br />
-            (24 hour design competition entry) 
+           <h2>A social stage for musicians<br />
+            (24 hour design competition entry) </h2> 
           </ProjectCard>
        
 
