@@ -84,6 +84,15 @@ const Index = () => (
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
+        <ProjectCard
+            title="Bond"
+            link="/bond
+            "
+            bg="linear-gradient(to right, #D26E5F 0%, #ffffff 100%)"
+          >
+            <h2>Creating genuine relationships between different generations</h2>
+          </ProjectCard>
+
           <ProjectCard
             title="obo"
             link="/obo"
@@ -99,15 +108,6 @@ const Index = () => (
             bg="linear-gradient(to right, #0f9d58 0%, #ffffff 100%)"
           >
             <h2>The future of online advertising</h2>
-          </ProjectCard>
-
-          <ProjectCard
-            title="Bond"
-            link="/bond
-            "
-            bg="linear-gradient(to right, #D26E5F 0%, #ffffff 100%)"
-          >
-            <h2>Creating genuine relationships between different generations</h2>
           </ProjectCard>
 
           <ProjectCard

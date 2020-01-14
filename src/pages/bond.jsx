@@ -21,7 +21,7 @@ const Footer = styled.footer`
 const ThreeColumns = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
   display: grid;
-  grid-gap: 4rem;
+  grid-gap: 3rem;
   grid-template-columns: repeat(3, 1fr);
   @media (max-width: 1200px) {
     grid-gap: 3rem;
@@ -63,8 +63,14 @@ function App() {
   </Fade>
 </div>
 
+<div style={{width:'90%',display:'block',margin:'auto',paddingTop:'100px',color:'#d26e5f',fontSize:'21px',textAlign:'center'}}>
+  <Fade>
+  <h1 >Introducing Bond</h1>
+  </Fade>
+</div>
+
 <div>
-<img style={{width:"15%", paddingTop:'200px',display:'block',margin:'auto'}} src={ bondCircles } className="oboLogo" alt="logo" />
+<img style={{width:"15%", paddingTop:'100px',display:'block',margin:'auto'}} src={ bondCircles } className="oboLogo" alt="logo" />
 </div>
 
 <div style={{display:'block',margin:'auto', width:'90%',paddingTop:'100px'}}>
@@ -123,7 +129,7 @@ function App() {
 </ThreeColumns>
 
 <div style={{width:'90%',display:'block',margin:'auto',paddingTop:'100px',color:'#d26e5f',fontSize:'21px'}}>
-  <h1 >An elderly friendly Interface</h1>
+  <h1 >An elderly friendly interface</h1>
 </div>
 
 <div>
@@ -134,8 +140,9 @@ function App() {
 <img style={{width:"90%",marginTop:'50px',display:'block',margin:'auto'}}src={ elderlyUITwo } />
 </div>
 
-<div style={{width:'90%',display:'block',margin:'auto',paddingTop:'100px',color:'#d26e5f'}}>
-  <h1 style={{zIndex:'999'}}>Tutorials</h1>
+<div style={{width:'90%',display:'block',margin:'auto',paddingTop:'100px'}}>
+  <h1 style={{zIndex:'999',color:'#d26e5f'}}>Tutorials</h1>
+  <h3 style={{width:'80%'}}>Tutorials make learing how to use and interact with Bond easy and simple. Showing the same tutorial multiple times to reinforce behavior easing the frustration that can come with learning something new.</h3>
 </div>
 
 <div>
@@ -146,6 +153,50 @@ function App() {
 <img style={{width:"90%",marginTop:'0px',display:'block',margin:'auto'}}src={ access } />
 </div>
 
+<div style={{width:'90%',display:'block',margin:'auto',paddingTop:'100px',color:'#d26e5f',fontSize:'21px'}}>
+  <h1 >Our Impact</h1>
+</div>
+
+<ThreeColumns style={{lineHeight:"1.4",marginTop:'100px'}} className="textPadding">
+              <div>
+                <h2 style={{textAlign:'center'}}>
+                By <span style={{color:'#d26e5f'}}>connecting individuals</span>, it adds 1.2 years for every person that can get over loneliness
+                    </h2>
+                    <h3 style={{textAlign:'center'}}>
+                      <span style={{color:'#d26e5f'}}>6000+ years</span> to humanity
+                    </h3>
+                  </div>
+
+                      <div>
+                        <h2 style={{textAlign:'center'}}>
+                        By <span style={{color:'#d26e5f'}}>Sharing</span>, we can reduce stress, anxiety, depression, risk of physical health concerns
+                        </h2>
+                          </div>
+                
+                <div>
+                    <h2 style={{textAlign:'center'}}>
+                    By <span style={{color:'#d26e5f'}}>Growing</span>, cognitive abilities can decline 70 percent more slowly
+                        </h2>
+                      </div>
+</ThreeColumns>
+
+<div style={{textAlign:"center",marginTop:"150px"}}>
+                <h1>
+                  – Thank you
+                    </h1>
+
+                      </div>
+
+                      {/*   Made with <a style={{color:"red"}}>&#9829;</a>{' '}
+                         , React and other stuff<br/> */}
+
+                      <Footer>
+                       Check out my other projects:  <a className="footerObo" href="/obo"> Obo </a>
+                       <a className="footerLine" href="/obo">|</a>
+                       <a className="footerObo" href="/google"> Google</a><br/>
+                      
+
+                          </Footer>
 
     </div>
 
