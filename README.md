@@ -1,1 +1,1 @@
-My online portfolio made with gatsby and react
+portfolio of eric flatt
