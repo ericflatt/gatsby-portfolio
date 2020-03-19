@@ -1,6 +1,7 @@
 {
   "main.js": "render-page.js",
   "main.js.map": "render-page.js.map",
+  "static/CoMotion_hero.gif": "static/CoMotion_hero-c5d1ead02b060ddc8017f04dfb130ae9.gif",
   "static/access.svg": "static/access-b3c7a19cb43fa0481b5f1a148511eef2.svg",
   "static/affinityOne.png": "static/affinityOne-49fc0344349436ee3d10f5a0c12e7bc0.png",
   "static/community.png": "static/community-c0d66586aa62188cfc507bc1c1cd000b.png",
@@ -31,6 +32,7 @@
   "static/routineScreen.png": "static/routineScreen-7527d40c4af7eb75eabb2224a1701b1f.png",
   "static/routineTwo.png": "static/routineTwo-63eff4f6d460dc5a6e40ef2ca9eeb8b0.png",
   "static/scrapbook.png": "static/scrapbook-0679b033b0be2077020a57db95aff223.png",
+  "static/startup-video.gif": "static/startup-video-50d996bceb5994ad4a777595062173b7.gif",
   "static/stepFour.png": "static/stepFour-e5f5b5c6b55f426073421f559620607d.png",
   "static/stepOne.png": "static/stepOne-5e767d6b4da28100f4ee23e6d344e192.png",
   "static/stepThree.png": "static/stepThree-ec5a5de2c6d1c4d99e232dd1e9714fd1.png",
