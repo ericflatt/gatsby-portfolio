@@ -118,6 +118,22 @@ const Index = () => (
            <h2>A social stage for musicians<br />
             (24 hour design competition entry) </h2> 
           </ProjectCard>
+
+          <ProjectCard
+            title="CoMotion 2020"
+            link="/comotion"
+            bg="linear-gradient(to right, white 0%, #fba91a 100%)"
+          >
+           <h2>Web design and development for CoMotion 2020 </h2> 
+          </ProjectCard>
+
+          <ProjectCard
+            title="StartUp 2020"
+            link="/startup"
+            bg="linear-gradient(to right, white 0%, #2c4dff 100%)"
+          >
+           <h2>Web development for StartUp 2020 </h2> 
+          </ProjectCard>
        
 
 
@@ -142,7 +158,7 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
           Say <a style={{color:"pink"}} href="mailto:eflatt18@gmail.com">Hi,</a> check out my
-            <a style={{color:"pink"}} href="https://drive.google.com/file/d/1l61pqSADWsvSMep6_2WfdyUGQQWi2WwE/view?usp=sharing"target="_blank"> Resume</a> or find me on other platforms:{' '}
+            <a style={{color:"pink"}} href="https://drive.google.com/file/d/1kiZz4P8Z3AMFBaKk-wH8BNhLtEn__NSm/view?usp=sharing"target="_blank"> Resume</a> or find me on other platforms:{' '}
             <a style={{color:"pink"}} href="https://www.instagram.com/eric_flatt/"target="_blank">Instagram</a> &{' '}
             <a style={{color:"pink"}} href="https://linkedin.com/in/ericbflatt"target="_blank">LinkedIn</a>
           </ContactText>
