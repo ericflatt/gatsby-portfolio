@@ -6,6 +6,8 @@ import downArrowWhite from './img/arrow-down-white.svg'
 import flux from './img/fluxFIX.png'
 import './floatie.css'
 import './main.css'
+import bondLogo from './img/bondLogo.svg'
+
 
 
 
@@ -90,6 +92,7 @@ const Index = () => (
             "
             bg="linear-gradient(to right, #D26E5F 0%, #ffffff 100%)"
           >
+            
             <h2>Creating genuine relationships between different generations</h2>
           </ProjectCard>
 
