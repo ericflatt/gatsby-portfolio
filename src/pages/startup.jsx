@@ -2,7 +2,7 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import styled from 'styled-components'
 import tw from 'tailwind.macro'
-import logoAnimation from './img/startup-video.gif'
+// import logoAnimation from './img/startup-video.gif'
 import downArrow from './img/arrow-down.svg'
 
 
@@ -32,7 +32,7 @@ function App() {
       <header className="App-header">
 
     <div>
-    <img style={{width:"90%"}} src={ logoAnimation } alt="" />
+    {/* <img style={{width:"90%"}} src={ logoAnimation } alt="" /> */}
     <p style={{textAlign:"left", paddingLeft:"5%", marginTop:"0",fontSize:"14px"}}>Logo animation by Will Burkart</p>
     <a className="downArrow" href="/">
       <img src={ downArrow } className="backArrow" alt="go back" />

@@ -1,25 +1,8 @@
-Skip to content
 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
-
-@eflatt18
-0
-0 0 eflatt18/React-Portfolio Private
- Code  Issues 0  Pull requests 0  Projects 0  Security  Insights  Settings
-React-Portfolio/src/pages/obo.css
-@scadstartup2019 scadstartup2019 commit
-2f5f0a0 21 hours ago
-160 lines (126 sloc)  1.97 KB
 
 body{
   margin: 0;
   padding: 0;
-
 }
 
 .App {
@@ -28,6 +11,10 @@ body{
   background-image: url("./img/oboBG.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+a{
+  color: black;
 }
 
 .footerLine{
@@ -54,9 +41,30 @@ body{
   left: 10px;
 }
 
+ /* .indigo{
+  position: absolute;
+  width: 5%;
+  left: 15px;
+  top: 50px;
+} */
+
+ @media only screen and (max-width:800px){
+  .indigo{
+    width: 20%;
+  }
+} 
+
+.indigo{
+  width: 10%;
+}
+
+.indigoText{
+  font-size: 24px;
+  text-decoration: underline;
+}
+
 
 .App-header {
-  background-color: ;
   min-height: 100vh;
   width:100%;
   display: flex;
