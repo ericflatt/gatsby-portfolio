@@ -25,6 +25,7 @@ import homeScreen from './img/homeScreen.png'
 import routinesScreen from './img/routineScreen.png'
 import digitalBalance from './img/digitalBalance.png'
 import ImageZoom from 'react-medium-image-zoom'
+import indigo from './img/indigo.png'
 
 import './obo.css'
 
@@ -87,12 +88,11 @@ const ColoredLine = ({ color }) => (
     />
 );
 
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-
+        
       <a className="downArrow" href="/">
       <img src={ downArrow } className="backArrow" alt="go back" />
       </a>
@@ -100,7 +100,18 @@ function App() {
         <img src={ oboLogo } className="oboLogo" alt="logo" />
         <p>
         build to connect
+        <br></br>
+        <div style={{fontSize:14,marginTop:50}}>
+        <a href="https://www.indigoawards.com/winners/2347" target='_blank'><span className="indigoText">Indigo Design Award winner </span></a>
+        <br></br>
+        Silver in Interactive Design 2020, Non-pro <br></br>
+        Silver in UX, Interface & Navigation 2020, Non-pro <br></br>
+        Bronze in Apps 2020, Non-pro
+        </div>
           </p>
+          <a href="https://www.indigoawards.com/winners/2347" target='_blank'>
+        <img src={ indigo }  className="indigo" alt="indigo award" />
+        </a>
         <img src={ downArrow } className="downArrow bounce" alt="scroll down" />
       </header>
 
