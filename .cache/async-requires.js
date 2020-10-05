@@ -2,7 +2,7 @@
 const preferDefault = m => (m && m.default) || m
 
 exports.components = {
-  "component---cache-dev-404-page-js": () => import("./../../dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
+  "component---node-modules-gatsby-plugin-offline-app-shell-js": () => import("./../../../node_modules/gatsby-plugin-offline/app-shell.js" /* webpackChunkName: "component---node-modules-gatsby-plugin-offline-app-shell-js" */),
   "component---src-pages-bond-jsx": () => import("./../../../src/pages/bond.jsx" /* webpackChunkName: "component---src-pages-bond-jsx" */),
   "component---src-pages-comotion-jsx": () => import("./../../../src/pages/comotion.jsx" /* webpackChunkName: "component---src-pages-comotion-jsx" */),
   "component---src-pages-floatie-jsx": () => import("./../../../src/pages/floatie.jsx" /* webpackChunkName: "component---src-pages-floatie-jsx" */),
