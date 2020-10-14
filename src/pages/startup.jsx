@@ -33,7 +33,7 @@ function App() {
 
     <div>
     {/* <img style={{width:"90%"}} src={ logoAnimation } alt="" /> */}
-    <p style={{textAlign:"left", paddingLeft:"5%", marginTop:"0",fontSize:"14px"}}>Logo animation by Will Burkart</p>
+    {/* <p style={{textAlign:"left", paddingLeft:"5%", marginTop:"0",fontSize:"14px"}}>Logo animation by Will Burkart</p> */}
     <a className="downArrow" href="/">
       <img src={ downArrow } className="backArrow" alt="go back" />
       </a>

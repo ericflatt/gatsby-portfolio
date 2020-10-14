@@ -161,7 +161,7 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
           Say <a style={{color:"pink"}} href="mailto:eflatt18@gmail.com">Hi,</a> check out my
-            <a style={{color:"pink"}} href="https://drive.google.com/file/d/1kiZz4P8Z3AMFBaKk-wH8BNhLtEn__NSm/view?usp=sharing"target="_blank"> Resume</a> or find me on other platforms:{' '}
+            <a style={{color:"pink"}} href="https://drive.google.com/file/d/14hEAbICxwgNa80R1hHY5K8BWPBc5UIpR/view?usp=sharing"target="_blank"> Resume</a> or find me on other platforms:{' '}
             <a style={{color:"pink"}} href="https://www.instagram.com/eric_flatt/"target="_blank">Instagram</a> &{' '}
             <a style={{color:"pink"}} href="https://linkedin.com/in/ericbflatt"target="_blank">LinkedIn</a>
           </ContactText>

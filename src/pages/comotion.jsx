@@ -43,7 +43,7 @@ function App() {
     <div>
       <a target="_blank" href="https://onepagelove.com/comotion-2020"><img style={opl} src="https://s3.amazonaws.com/onepagelove/one-page-love-award-ribbon-left.svg" alt=""/></a>
     {/* <img style={{width:"90%"}} src={ logoAnimation } alt="" /> */}
-    <p style={{textAlign:"left", paddingLeft:"5%", marginTop:"0",fontSize:"14px"}}>Logo animation by Jose Pena</p>
+    {/* <p style={{textAlign:"left", paddingLeft:"5%", marginTop:"0",fontSize:"14px"}}>Logo animation by Jose Pena</p> */}
     <a className="downArrow" href="/">
       <img src={ downArrow } className="backArrow" alt="go back" />
       </a>
