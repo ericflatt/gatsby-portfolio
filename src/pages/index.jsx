@@ -147,10 +147,10 @@ const Index = () => (
       </Projects>
       <About offset={3}>
         <Title>About me</Title>
-        <AboutHero>
+        <AboutHero className="aboutHero">
         <img src={ me }  className="me" alt="indigo award" />
-          <AboutDesc style={{textAlign:"left", marginLeft:"25px"}}>
-          I'm a User Experience Design student at the Savannah College of Art and Design in Savannah, GA. My passion for responsive web design and development as well as mobile app design means you can always find me in front of my computer. Music has been a huge part of my life for as long as I can remember, so I always make sure to catch my favorite bands live, such as Cage the Elephant, Slipknot, Tool and Arctic Monkeys. In the summer of 2019 I had the opportunity to join iCIMS as a UX Design Intern, and in late summer, early fall of 2020 I worked at Bobblehaus as a UX/UI Intern. Currently I'm looking forward to tackling the next challenge that comes my way. 
+          <AboutDesc style={{fontSize:"19px"}} className="aboutDesc">
+          My passion for responsive web design and development as well as mobile app design means you can always find me in front of my computer. Music has been a huge part of my life for as long as I can remember, so I always make sure to catch my favorite bands live, such as Cage the Elephant, Slipknot, Tool and Arctic Monkeys. In the summer of 2019 I had the opportunity to join iCIMS as a UX Design Intern, and in late summer, early fall of 2020 I worked at Bobblehaus as a UX/UI Intern. Currently I'm looking forward to tackling the next challenge that comes my way. 
           </AboutDesc>
         </AboutHero>
         <AboutDesc>

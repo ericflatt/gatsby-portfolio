@@ -193,7 +193,7 @@ function App() {
                       <Footer>
                        Check out my other projects:  <a className="footerObo" href="/obo"> Obo </a>
                        <a className="footerLine" href="/obo">|</a>
-                       <a className="footerObo" href="/comotion"> ComMotion</a><br/>
+                       <a className="footerObo" href="/comotion"> CoMotion</a><br/>
                       
 
                           </Footer>

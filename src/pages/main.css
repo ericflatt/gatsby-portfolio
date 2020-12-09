@@ -37,3 +37,54 @@
     margin-bottom: 25px;
   }
 }
+
+.aboutHero{
+  display: flex;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 768px){
+  .aboutHero{
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.aboutDesc{
+  text-align: left;
+  margin-left: 75px;
+  font-size: 19px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 768px){
+  .aboutDesc{
+    margin-left: 0;
+    font-size: 16px;
+  }
+}
+
+.comotion-hero{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px){
+  .comotion-hero{
+    width: 100%;
+  }
+}
+
+.startup-hero{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px){
+  .startup-hero{
+    width: 100%;
+  }
+}

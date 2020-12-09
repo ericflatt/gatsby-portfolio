@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import tw from 'tailwind.macro'
 // import logoAnimation from './img/startup-video.gif'
 import downArrow from './img/arrow-down.svg'
+import logo from './img/2020-logo.png'
 
 
 import './landing.css'
@@ -41,6 +42,7 @@ function App() {
     </div>
 
     <div style={{paddingLeft:"5%",textAlign:"left",paddingRight:"5%"}}>
+    <img src={ logo } className="startup-hero" alt="go back" />
         <h5>Developed the website for StartUp 2020 alongside with <a target="_blank" className="footerObo" href="https://ndrewgood.com/index.html">Andrew Goodridge</a>. StartUp is an annual design sprint with over 200 participants.</h5>
     </div>
     <h5 style={{textAlign:"center"}}>

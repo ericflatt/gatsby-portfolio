@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import tw from 'tailwind.macro'
 // import logoAnimation from './img/CoMotion_hero.gif'
 import downArrow from './img/arrow-down.svg'
+import hero from './img/comotion-hero.png'
 
 
 import './landing.css'
@@ -51,6 +52,7 @@ function App() {
     </div>
 
     <div style={{paddingLeft:"5%",textAlign:"left",paddingRight:"5%"}}>
+    <img src={ hero } className="comotion-hero" alt="go back" />
         <h5>Designed and developed the website for CoMotion 2020 alongside with <a target="_blank" className="footerObo" href="https://ndrewgood.com/index.html">Andrew Goodridge</a>. CoMotion is a student-led motion graphics conference at the Savannah College of Art and Design.</h5>
     </div>
     <h5 style={{textAlign:"center"}}>
