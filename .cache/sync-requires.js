@@ -5,7 +5,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("C:\\Users\\eflat\\Documents\\gatsby-portfolio\\.cache\\dev-404-page.js"))),
+  "component---node-modules-gatsby-plugin-offline-app-shell-js": hot(preferDefault(require("C:\\Users\\eflat\\Documents\\gatsby-portfolio\\node_modules\\gatsby-plugin-offline\\app-shell.js"))),
   "component---src-pages-bond-jsx": hot(preferDefault(require("C:\\Users\\eflat\\Documents\\gatsby-portfolio\\src\\pages\\bond.jsx"))),
   "component---src-pages-comotion-jsx": hot(preferDefault(require("C:\\Users\\eflat\\Documents\\gatsby-portfolio\\src\\pages\\comotion.jsx"))),
   "component---src-pages-floatie-jsx": hot(preferDefault(require("C:\\Users\\eflat\\Documents\\gatsby-portfolio\\src\\pages\\floatie.jsx"))),

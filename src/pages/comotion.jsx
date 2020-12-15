@@ -56,7 +56,7 @@ function App() {
         <h5>Designed and developed the website for CoMotion 2020 alongside with <a target="_blank" className="footerObo" href="https://ndrewgood.com/index.html">Andrew Goodridge</a>. CoMotion is a student-led motion graphics conference at the Savannah College of Art and Design.</h5>
     </div>
     <h5 style={{textAlign:"center"}}>
-            <a className="footerObo" target="_blank" href="https://scadcomotion.com/">Link to live site</a>
+            <a className="footerObo" target="_blank" href="https://2020.scadcomotion.com/">Link to live site</a>
         </h5>
       </header>
 
